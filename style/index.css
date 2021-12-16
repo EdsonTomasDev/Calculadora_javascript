@@ -37,4 +37,57 @@ body {
     padding-left: 3px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    text-align: right;
+}
+
+.botoes {
+    width: 269px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.botoes-num {
+    width: 200px;
+   
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.operador {
+    width: 55px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 2px;
+}
+.operador-igual {
+    width: 55px;
+    height: 218px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 5px;
+    padding-top: 90px;
+    
+}
+
+.numeros {
+    margin-left: 9px;
+    margin-top: 0;
+    padding-top: 0;
+    width: 269px;
+    display: flex;
 }

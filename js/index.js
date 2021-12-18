@@ -23,6 +23,7 @@ function digito(numero){
         num1 = num1 + numeral_um[i];
 
         document.getElementById("demo").innerHTML = num1;
+        document.getElementById("tela").value = num1;
 
 
     }

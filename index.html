@@ -7,12 +7,15 @@
     <title>Calculadora</title>
     <link rel="stylesheet" href="./style/index.css">
     <script src="./js/index.js"></script>
+
+    
 </head>
 <body>
     <div class="content red">
             <div class="calculadora">
                 <div class="tela">
-                    <input type="text" name="tela" id="tela">
+                    <input type="text" id="telas">
+                    <p id="demo"></p>
                 </div>
                     <!-- INÍCIO TECLADO -->
                 <div class="botoes green">
@@ -24,26 +27,26 @@
                 <div class="numeros red">
                     <div class="numeros-num">
                         <div class="botoes-num green">
-                            <div class="operador">7</div>
-                            <div class="operador">8</div>
-                            <div class="operador">9</div>
+                            <div class="operador" onclick="digito(7)">7</div>
+                            <div class="operador" onclick="digito(8)">8</div>
+                            <div class="operador"onclick="digito(9)">9</div>
                             
                         </div>
                         <div class="botoes-num green">
-                            <div class="operador">4</div>
-                            <div class="operador">5</div>
-                            <div class="operador">6</div>
+                            <div class="operador"onclick="digito(4)">4</div>
+                            <div class="operador"onclick="digito(5)">5</div>
+                            <div class="operador"onclick="digito(6)">6</div>
                            
                         </div>
                         <div class="botoes-num green">
-                            <div class="operador">1</div>
-                            <div class="operador">2</div>
-                            <div class="operador">3</div>
+                            <div class="operador"onclick="digito(1)">1</div>
+                            <div class="operador"onclick="digito(2)">2</div>
+                            <div class="operador"onclick="digito(3)">3</div>
                             
                         </div>
                         <div class="botoes-num green">
-                            <div class="operador">0</div>
-                            <div class="operador">.</div>
+                            <div class="operador"onclick="digito(0)">0</div>
+                            <div class="operador"onclick="digito('.')">.</div>
                             <div class="operador">C</div>
                            
                         </div>

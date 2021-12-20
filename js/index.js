@@ -147,6 +147,7 @@ function limpar(){
     //LIMPAR O ARRAY, A PARTIR DA POSIÇÃO "0"
     numeral_um.splice(0,numeral_um.length);
     numeral_dois.splice(0,numeral_dois.length);
+    document.getElementById("tela").value = "0";
 }
 
 function efetuar_operacao(){
@@ -171,13 +172,14 @@ function efetuar_operacao(){
     document.getElementById("tela").value = resultado;
 
     //LIMPA DEPOIS DE EXIBIR O RESULTADO
-    numero1 = "";
+    numero1 = resultado;
     numero2 = "";
     operador = "";
     evento = 1;
     //LIMPAR O ARRAY, A PARTIR DA POSIÇÃO "0"
     numeral_um.splice(0,numeral_um.length);
     numeral_dois.splice(0,numeral_dois.length);
+    
 
 
 }

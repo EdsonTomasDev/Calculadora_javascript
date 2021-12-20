@@ -22,7 +22,7 @@ body {
     margin: 0 auto;
     background: #d8d8d8;
     border: 1px solid #848484;
-    padding-top: 5px;
+    padding-top: 10px;
 
 }
 
@@ -33,11 +33,13 @@ body {
 }
 
 .tela input {
-    width: 272px;
-    height: 30px;
+    box-sizing: border-box;
+    width: 282px;
+    height: 50px;
     padding-left: 3px;
+    padding-right: 8px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
 }
 
@@ -49,17 +51,20 @@ body {
     margin-right: auto;
     padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    border: 1px solid gray;
+    
 }
 .botoes-num {
-    width: 200px;
-   
+    width: 196px;
+    
     margin-bottom: 0;
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 .operador {
@@ -68,12 +73,39 @@ body {
     text-align: center;
     font-size: 30px;
     cursor: pointer;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.operador:hover {
+    background: #a4a4a4;
+    color: white;
+}
+
+.operador-igual:hover {
+    background: #a4a4a4;
+    color: white;
+}
+
+.operador-simbolo:hover {
+    background: #a4a4a4;
+    color: white;
+}
+
+.operador-simbolo {
+    width: 53px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    
     padding-top: 5px;
     padding-bottom: 5px;
 }
 .operador-igual {
-    width: 55px;
-    height: 218px;
+    width: 73px;
+    height: 212px;
     border: 1px solid black;
     text-align: center;
     font-size: 30px;
@@ -88,6 +120,10 @@ body {
     margin-left: 9px;
     margin-top: 0;
     padding-top: 0;
-    width: 269px;
+    width: 280px;
     display: flex;
+}
+
+.numeros_igual {
+    background: blue;
 }

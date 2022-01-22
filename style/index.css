@@ -76,6 +76,7 @@ body {
     margin: 0;
     padding-top: 5px;
     padding-bottom: 5px;
+    font-weight: bold;
 }
 
 .operador:hover {
@@ -97,9 +98,7 @@ body {
     width: 53px;
     border: 1px solid black;
     text-align: center;
-    font-size: 30px;
     cursor: pointer;
-    
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -126,4 +125,10 @@ body {
 
 .numeros_igual {
     background: blue;
+}
+
+.fa-plus, .fa-minus, .fa-times, .fa-divide,
+.fa-equals {
+    font-size: 25px;
+
 }

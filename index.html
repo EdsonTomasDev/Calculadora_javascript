@@ -8,21 +8,24 @@
     <link rel="stylesheet" href="./style/index.css">
     <script src="./js/index.js"></script>
 
+        <!-- LINK FONTAWESOME PARA OS ICONES DAS OPERAÇOES -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
     
 </head>
 <body>
-    <div class="content red">
+    <div class="content">
             <div class="calculadora">
                 <div class="tela">
-                    <input type="text" name="tela" id="tela" value="0">
-                    <!-- <p id="demo"></p> -->
+                    <input type="text" name="tela" id="tela" value="0" readonly>
+                    <p id="demo"></p>
                 </div>
                     <!-- INÍCIO TECLADO -->
                 <div class="botoes">
-                    <div class="operador-simbolo" onclick="operacao('soma')">+</div>
-                    <div class="operador-simbolo" onclick="operacao('menos')">-</div>
-                    <div class="operador-simbolo" onclick="operacao('multi')">X</div>
-                    <div class="operador-simbolo" onclick="operacao('divisao')">/</div>
+                    <div class="operador-simbolo" onclick="operacao('soma')"><i class="fas fa-plus"></i></div>
+                    <div class="operador-simbolo" onclick="operacao('menos')"><i class="fas fa-minus"></i></div>
+                    <div class="operador-simbolo" onclick="operacao('multi')"><i class="fas fa-times"></i></div>
+                    <div class="operador-simbolo" onclick="operacao('divisao')"><i class="fas fa-divide"></i></div>
                 </div>
                 <div class="numeros">
                     <div class="numeros-num">
@@ -54,7 +57,7 @@
                     </div>
 
                     <div class="numeros-igual">
-                        <div class="operador-igual" onclick="efetuar_operacao()">=</div>
+                        <div class="operador-igual" onclick="efetuar_operacao()"><i class="fas fa-equals"></i></div>
                     </div>
                     
                 </div>

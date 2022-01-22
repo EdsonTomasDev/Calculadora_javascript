@@ -8,6 +8,7 @@ let valor = "";//ARMAZENA TODOS OS ITENS DIGITADOS PARA EXIBIR EM TELA
 //APÓS PRESSIONAR O OPERADOR A VARIÁVEL RECEBERÁ O 2 E PASSAREMOS A GRAVAR NO "NUMERAL_DOIS"
 let evento = 1;
 
+
 const numeral_dois = [];
 let numero2 = "";
 
@@ -15,10 +16,6 @@ frutas.push("pera");
 frutas.push("maçã");
 frutas.push("goiaba");
 //frutas.length = 1;
-
-
-
-
 
 
 function digito(numero){
@@ -169,6 +166,8 @@ function efetuar_operacao(){
         resultado = numero1 / numero2;
     }
 
+    // let resultado_decimal = resultado.toFixed(10);
+
     document.getElementById("tela").value = resultado;
 
     //LIMPA DEPOIS DE EXIBIR O RESULTADO
@@ -183,3 +182,5 @@ function efetuar_operacao(){
 
 
 }
+
+
